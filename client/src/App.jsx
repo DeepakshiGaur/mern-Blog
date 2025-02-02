@@ -6,7 +6,7 @@ import About from './pages/About'
 import SignIn from './pages/Signin'
 import Dashboard from './pages/Dashboard'
 import Projects from './pages/Projects'
-import Signup from './pages/Signup'
+import Signup from './pages/SignUp'
 import Header from './components/Header'
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/sign-in" element={<SignIn />} />
-        <Route path="/sign-in" element={<Signup />} />
+        <Route path="/sign-up" element={<Signup />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
